@@ -1,4 +1,4 @@
-# VITAL Sprint Slides (One-Slide Each)
+# VITAL Sprint Slides
 
 ## Sprint: Import/Create Student Timetable (iCal-first)
 - Goal: iCal URL import + preview + save + refresh; manual entry fallback.
