@@ -40,6 +40,7 @@
 A few key tasks to get started on:
 - Create a MVP app (using Capacitor) that takes an iCal URL, and then displays the events as a calendar. The logic for iCal processing should NOT be done on device. We need a backend, it doesn't matter how it's done, as long as it's done; Dotnet or TypeScript (Elysia) preferably.
 - Concept art and UI design! I'm not an artist and don't know the process behind this so I'll leave it to the experts.
+- Investigate Canvas API/hooks to see how (if possible) we can integrate assignments etc.
 
 ### Software that I think is interesting and could be useful:
 - [Better Auth](https://www.better-auth.com/) — Modern and easy (and framework agnostic) auth solution
