@@ -25,7 +25,7 @@ jobs:
         run: docker build -t icalapp-backend:latest ./icalapp/backend
 
       - name: Remove existing container
-        shell: pwsh
+        shell: powershell
         run: |
           $existing = docker ps -aq --filter "name=^icalapp-backend$"
           if ($existing) {
@@ -36,7 +36,7 @@ jobs:
         run: docker run -d --name icalapp-backend --restart unless-stopped -p 3000:3000 -e PORT=3000 -v icalapp-backend-data:/app/data icalapp-backend:latest
 
       - name: Health check
-        shell: pwsh
+        shell: powershell
         run: |
           $healthy = $false
 
